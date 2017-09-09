@@ -5,7 +5,7 @@ from datetime import datetime
 
 #This function requests for the beginning date that the user would want to input.
 def start_date():
-    n = str(input("Residence Start Date: "))
+    n = str(input("Residence Start Date (YYYY/MM/DD): "))
     try:
         dt_start = datetime.strptime(n, "%Y, %m, %d")
     except ValueError:
@@ -14,7 +14,7 @@ def start_date():
 
 #This function requests for the end date that the user would want to input. 
 def end_date():
-    m = str(input("Residence End Date: "))
+    m = str(input("Residence End Date (YYYY/MM/DD): "))
     try:
         dt_end = datetime.strptime(m, "%Y, %m, %d")
     except ValueError:
