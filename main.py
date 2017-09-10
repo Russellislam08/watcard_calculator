@@ -1,5 +1,5 @@
 #watcard_calculator.py
-#This is a simple program which will determin, on average, how much of your meal plan you should spend daily in order to maximise it.
+#This is a simple program which will determine, on average, how much of your meal plan you should spend daily in order to maximise it.
 
 from datetime import datetime
 
