@@ -48,4 +48,5 @@ def main():
     print("You should spend ${:0.2f} every day.".format(spend))
     x = input("Enter any character to exit.")
 
-main()
+if __name__ == "__main__":
+    main()
